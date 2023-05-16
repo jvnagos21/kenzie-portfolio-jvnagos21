@@ -29,7 +29,7 @@ import {
 
 export const Home = (): JSX.Element => {
   const gihubUrl = `https://github.com/${userData.githubUser}`;
-  const portfolioUrl = `https://github.com/${userData.githubUser}/my-portfolio`;
+  const portfolioUrl = `https://github.com/${userData.githubUser}/kenzie-portfolio-jvnagos21`;
 
   return (
     <main id="home">
@@ -44,29 +44,26 @@ export const Home = (): JSX.Element => {
                 width={"48px"}
                 height={"48px"}
               />
-              <Text color="grey4">Hello, my name is {userData.nameUser}</Text>
+              <Text color="grey4">Olá! eu sou o {userData.nameUser}</Text>
             </Flex>
             <Text as="h1" type="heading1" color="grey5">
-            I{" "}
+              SEMPER{" "}
               <Text as="span" type="heading1" color="brand1">
-                love
+                EVOLVING
               </Text>{" "}
-              creating and{" "}
-              <Text as="span" type="heading1" color="brand1">
-                developing
-              </Text>{" "}
-              projects
             </Text>
             <Text type="body1" color="grey2">
-              Discover here in this environment, created especially for you, all
-              my projects and technologies
+              confira aqui nesse website, criado com carinho pra você, todos os
+              meus projetos e tecnologias
+              {/* Discover here in this environment, created especially for you, all
+              my projects and technologies */}
             </Text>
             <HeaderButtonsArea>
               <Button as="a" type="primary" href="#projects">
-                See Projects
+                confira os projetos
               </Button>
               <Button as="a" type="outline" target="_blank" href={portfolioUrl}>
-                See my portfolio source code
+                confira o código-fonte do portfolio
               </Button>
               <Button
                 color="grey5"
