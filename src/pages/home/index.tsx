@@ -60,10 +60,10 @@ export const Home = (): JSX.Element => {
             </Text>
             <HeaderButtonsArea>
               <Button as="a" type="primary" href="#projects">
-                confira os projetos
+                confira meus projetos
               </Button>
               <Button as="a" type="outline" target="_blank" href={portfolioUrl}>
-                confira o código-fonte do portfolio
+                veja o código-fonte do portfolio
               </Button>
               <Button
                 color="grey5"
@@ -89,12 +89,12 @@ export const Home = (): JSX.Element => {
           <ProjectAreaWrapperColumns>
             <ProjectsAreaSocialMediaMessage>
               <Text as="h2" type="heading4" color="grey4">
-                My projects
+                Meus Projetos
               </Text>
               <Text as="p" type="body1" color="grey2">
-                Some of my{" "}
+                Alguns dos{" "}
                 <Text as="span" color="brand5">
-                  side projects
+                  meus projetos desenvolvidos na kenzie e também pessoais
                 </Text>
               </Text>
             </ProjectsAreaSocialMediaMessage>
