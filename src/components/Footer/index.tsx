@@ -9,7 +9,7 @@ import { Button } from "@/styles/Buttons";
 
 export const Footer = (): JSX.Element => {
   return (
-    <FooterWrapper id="social-media">
+    <FooterWrapper id="about-me">
       <Container>
         <Flex>
           <UserImage
@@ -21,10 +21,13 @@ export const Footer = (): JSX.Element => {
           />
           <Box css={{ marginLeft: "$2" }}>
             <Text type="heading4" color="grey5" css={{ marginBottom: "$2" }}>
-              Obrigado! {/* <HandEffect /> */}
+              Sobre mim {/* <HandEffect /> */}
             </Text>
             <Text type="body1" color="grey2">
-              Me siga nas redes sociais pra podermos conversar mais.
+              Boa experiência com desenvolvimento de Aplicações em Front-End e Back-End 
+              baseadas em HTML, CSS, Javascript, NODE.js e Python.
+              tendo desenvolvido mais de 30 projetos na Kenzie Academy Brasil, além de domínio em REACT.JS, 
+              bem como, uso em metodologia ágil SCRUM através de projetos em grupo, e além de domínio de inglês e espanhol básico.
             </Text>
           </Box>
         </Flex>
